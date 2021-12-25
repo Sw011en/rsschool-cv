@@ -1,8 +1,10 @@
 # Igor Kancher
 <link rel="stylesheet" href="index.css">
-<img src="avatar.png" alt="foto" align="right" height="100x" width="100x">
 
 ## Contacts
+
+<img src="avatar.png" alt="foto" align="right" height="100x" width="100x">
+
 * Phone: +7 9021 779 748
 * E-mail: igor.kancher@gmail.com
 * GitHub: [Sw011en](https://github.com/Sw011en "GitHub Account")
