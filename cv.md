@@ -1,4 +1,6 @@
 # Igor Kancher
+<link rel="stylesheet" href="index.css">
+<img src="avatar.png" alt="foto" align="right" height="100x" width="100x">
 
 ## Contacts
 * Phone: +7 9021 779 748
