@@ -50,3 +50,11 @@ Now I want to get an education in the IT profession and work on interesting proj
 
 * __Irkutsk Technical University__
     + Mining Engeneer
+* Weir University
+    + Technical Learning Programm
+
+***
+
+## Languages
+
+English - Upper Intermediate
