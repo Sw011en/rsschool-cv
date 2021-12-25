@@ -27,3 +27,26 @@ Now I want to get an education in the IT profession and work on interesting proj
 
 ## Code Examples
 
+```
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>On or Off</title>
+    <script type="text/javascript">
+        let bstatus = 'ЖМЯК';
+    </script>
+</head>
+
+<body>
+    <input name="button" class="button" type="submit" value="PUSH ME" onclick="alert (bstatus)">
+</body>
+
+```
+***
+
+## Education
+
+* __Irkutsk Technical University__
+    + Mining Engeneer
