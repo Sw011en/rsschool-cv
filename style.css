@@ -1,0 +1,14 @@
+.text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-kerning: auto;
+    text-align: center;
+    color: maroon;
+}
+
+.pics {
+    float: right;
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+}
