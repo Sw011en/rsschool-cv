@@ -1,7 +1,10 @@
 # Igor Kancher
 
+<head>
+<meta http-equiv="Cache-Control" content="no-cache">
 <link rel="stylesheet" href="index.css">
 <img src="avatar.png" alt="foto" class="avatar">
+</head>
 
 ## Contacts
 
