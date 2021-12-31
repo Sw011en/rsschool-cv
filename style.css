@@ -12,3 +12,21 @@
     width: 200px;
     height: 200px;
 }
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: orange;
+    position: static;
+    border: none;
+    padding: 1em;
+}
+
+.button {
+    display: flex;
+    background-color: tomato;
+    color: white;
+    border: none;
+    padding: 4px 7px;
+    box-shadow: 5px 5px 0 #000;
+}
