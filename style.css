@@ -1,32 +1,53 @@
-.text {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: medium;
-    font-kerning: auto;
-    text-align: center;
-    color: maroon;
-}
-
-.pics {
-    float: right;
-    margin: 5px;
-    width: 200px;
-    height: 200px;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-around;
-    background-color: orange;
-    position: static;
-    border: none;
-    padding: 1em;
-}
-
-.button {
-    display: flex;
-    background-color: tomato;
-    color: white;
-    border: none;
-    padding: 4px 7px;
-    box-shadow: 5px 5px 0 #000;
-}
+           .page {
+               background-image: url(bkgnd.jpg);
+               overflow: auto;
+               min-height: 100%;
+               min-width: 100%;
+           }
+           
+           .header {
+               display: flex;
+               position: fixed;
+               background-color: rgb(43, 61, 73);
+               left: 200px;
+               right: 200px;
+               box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.6);
+           }
+           
+           .h1 {
+               margin: 10px;
+               font-family: 'Times New Roman', Times, serif;
+               color: orange;
+           }
+           
+           .mcontent {
+               display: flex;
+               position: fixed;
+               left: 200px;
+               right: 200px;
+               top: 75px;
+               flex-direction: row;
+               box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.6)
+           }
+           
+           .mtext {
+               background-color: rgb(53, 75, 90);
+               min-width: 624px;
+               max-width: 624px;
+           }
+           
+           .foto {
+               background-color: rgb(67, 95, 114);
+               display: flex;
+               object-fit: cover;
+               padding-top: 2px;
+               padding-bottom: 2px;
+           }
+           
+           .regtext {
+               font-family: 'Times New Roman', Times, serif;
+               padding: 3px;
+               color: rgb(240, 170, 64);
+               margin: 3px;
+               font-size: 20px;
+           }
