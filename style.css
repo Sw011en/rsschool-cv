@@ -1,8 +1,8 @@
            .page {
+               display: flex;
+               flex-direction: column;
                background-image: url(bkgnd.jpg);
                overflow: auto;
-               min-height: 100%;
-               min-width: 100%;
            }
            
            .header {
@@ -61,7 +61,12 @@
            
            .contact {
                display: flex;
+               flex-direction: column;
                background-color: rgb(67, 95, 114);
                min-width: 300px;
                min-height: 200px;
+           }
+           
+           .hlink {
+               color: rgb(240, 170, 64);
            }
