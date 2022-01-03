@@ -1,5 +1,5 @@
            .page {
-               display: flex;
+               display: grid;
                flex-direction: column;
                background-image: url(bkgnd.jpg);
                overflow: auto;
@@ -12,7 +12,6 @@
                display: flex;
                position: relative;
                background-color: rgb(43, 61, 73);
-               left: 200px;
                top: 0px;
                box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.6);
                max-width: 1000px;
@@ -27,7 +26,6 @@
            .mcontent {
                display: flex;
                position: relative;
-               left: 200px;
                flex-direction: row;
                box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.6);
                max-width: 1000px;
@@ -58,6 +56,7 @@
                color: rgb(240, 170, 64);
                margin: 3px;
                font-size: 19px;
+               line-height: 1.5;
            }
            
            .stext {
@@ -90,7 +89,6 @@
                display: flex;
                flex-direction: row;
                position: relative;
-               left: 200px;
                margin-top: 10px;
                box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.6);
                max-width: 1005px;
