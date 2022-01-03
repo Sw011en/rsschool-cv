@@ -3,15 +3,19 @@
                flex-direction: column;
                background-image: url(bkgnd.jpg);
                overflow: auto;
+               min-height: 100%;
+               min-width: 100%;
+               justify-content: center;
            }
            
            .header {
                display: flex;
-               position: fixed;
+               position: relative;
                background-color: rgb(43, 61, 73);
                left: 200px;
-               right: 200px;
+               top: 0px;
                box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.6);
+               max-width: 1000px;
            }
            
            .h1 {
@@ -22,15 +26,18 @@
            
            .mcontent {
                display: flex;
-               position: fixed;
+               position: relative;
                left: 200px;
-               right: 200px;
-               top: 75px;
                flex-direction: row;
-               box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.6)
+               box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.6);
+               max-width: 1000px;
+               margin-top: 10px;
            }
            
            .mtext {
+               display: flex;
+               flex-direction: column;
+               min-width: 624px;
                background-color: rgb(53, 75, 90);
                min-width: 624px;
                color: rgb(240, 170, 64);
@@ -69,4 +76,36 @@
            
            .hlink {
                color: rgb(240, 170, 64);
+           }
+           
+           .code {
+               background-color: gray;
+               margin: 25px;
+               display: pre;
+               overflow: auto;
+               color: black;
+           }
+           
+           .footer {
+               display: flex;
+               flex-direction: row;
+               position: relative;
+               left: 200px;
+               margin-top: 10px;
+               box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.6);
+               max-width: 1005px;
+               justify-content: center;
+               background-color: rgb(43, 61, 73);
+           }
+           
+           .icon {
+               height: 50px;
+               width: 50px;
+               padding: 15px;
+           }
+           
+           .iconrss {
+               height: 50px;
+               width: auto;
+               padding: 15px;
            }
